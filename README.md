@@ -1,80 +1,52 @@
-# Jekyll Instagram Portfolio Theme
+# MAD4Jekyll - Theme for Jekyll 
 
-Clean, minimalistic and responsive portfolio theme for Jekyll powered by Bootstrap 4.
-For the portfolio section is used Instagram widget, but you can easily update it with another content source.
+> !!! Configured for **USER** pages !!!
 
-## Live Demo
+## Welcome to MAD4Jekyll!
+     
 
-https://portfolio-central.github.io/jekyll-instagram-portfolio-theme/
-![Jekyll Instagram Portfolio Theme](./screenshot.png "Jekyll Instagram Portfolio Theme")
+### 'MAD4Jekyll' is a theme for [Jekyll](https://github.com/jekyll/)
 
-## Showcase
+> The template has been revised as of August 27th, 2016.
 
-The best usage examples:
+----------
 
-- [Pavel Guzenko](http://guzenko.org.ua)
-- [Victor Mikitenko](https://mikitenko-org-ua.github.io/site/)
-- [Anthony Fuentes](http://anthonyfuentes.us/)
-- [Serhii Grytsyshyn](https://grserhii.github.io/)
+> A big thank you to <a href="https://github.com/patmuk">Patrick Mukherjee</a> for his contribution on regenerating the code.
 
-To add your example: fork the repo, add new line to the list above and create a pull request.
 
-## Featured on
+### It is based on [Clean Blog](http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/) theme by [Start Bootstrap](http://startbootstrap.com/).
 
-- [Template.net](https://www.template.net/cms-templates/jekyll/jekyll-themes-templates/)
-- [JekyllThemes.org](http://jekyllthemes.org/themes/instagram-portfolio-theme/)
+     
+#  Homepage  
 
-## Powered by
+#### Header Image
 
-- [Jekyll](https://jekyllrb.com/)
-- [Bootstrap 4](http://v4-alpha.getbootstrap.com/)
-- [jQuery](https://jquery.com/)
-- [SnapWidget](https://snapwidget.com)
-- [Google Fonts: Lobster](https://fonts.google.com/specimen/Lobster)
-- [Font Awesome](http://fontawesome.io/)
+#### A brief description
 
-## Installation
-Install Jekyll:
+#### A slider (it is turned off by default, since there is a also a separate section for a gallery)
 
-```
-gem install jekyll bundler
-```
+#### Contact Info
+            
 
-Install bundle dependiencies:
+#  Navbar 
 
-```
-bundle install
-```
+#### A logo on the left side
+ 
+#### 3 Pages for <a href="{{ site.baseurl }}/writing/">'blogging'</a>, <a href="{{ site.baseurl }}/gallery/">'gallery sliders'</a>, <a href="{{ site.baseurl }}/about/">'about'</a>.
+       
 
-When finished, run the dev server:
+#####  Search page, with all the tags and categories at the bottom
 
-```
-bundle exec jekyll serve
-```
+##### Footnotes poping up.
 
-or just:
+>## !!! IMPORTANT !!! Before You Begin
+>
+>####  Set the **_config.yml** file, with your personal info!
 
-```
-jekyll serve
+## What's Included
 
-```
-To stop the server, use `CTRL+C`.
+#### A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
 
-## Building front-end assets: styles and scripts
+#### A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
 
-Install module dependencies:
-
-```
-npm install
-```
-
-Run the build script to generate updated front-end assets:
-
-```
-npm run build
-```
-
-Watch for changes and automatically rebuild assets (`CTRL+C` to stop):
-```
-npm run watch
-```
+#### You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
